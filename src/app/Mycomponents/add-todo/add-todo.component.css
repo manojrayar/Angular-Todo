@@ -1,0 +1,12 @@
+.btn{
+    background-color: #ee6e73;
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #ee6e73;
+    box-shadow: 0 1px 0 0 #ee6e73; 
+
+}
+i{
+    font-size: 14px;
+}

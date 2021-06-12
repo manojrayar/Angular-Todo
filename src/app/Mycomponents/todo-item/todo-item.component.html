@@ -1,0 +1,12 @@
+<div>
+    <h5 [ngClass]="{'strick': todo.completed}" > {{todo.title}} </h5>
+    <p> {{todo.desc}} </p>
+    <p>
+        <label>
+          <input type="checkbox" (click)="checkboxClick(todo)" [checked]="todo.completed" />
+          <span>Done</span>
+        </label>
+      </p>
+    <button class="btn waves-effect" (click)="onClick(todo)">Delete</button>
+</div>
+<!-- <p> {{todo.sno}}-{{todo.title}}-{{todo.desc}} </p> -->

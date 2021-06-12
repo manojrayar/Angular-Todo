@@ -1,0 +1,15 @@
+<form action="">
+    <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="title" id="first_name2" type="text" class="validate" name="title" [(ngModel)]="title" >
+          <label class="active" for="first_name2">Todo Title</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="description" id="first_name2" type="text" class="validate" name="desc" [(ngModel)]="desc" >
+          <label class="active" for="first_name2">Description</label>
+        </div>
+    </div>
+    <div class="center-align">
+        <button class="btn waves-effect" type="submit" (click)="onSubmit()"> <i class="material-icons">add</i> Add</button>
+    </div>
+</form>
